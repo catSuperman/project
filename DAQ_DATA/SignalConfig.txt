@@ -1,0 +1,11 @@
+SignalTypeMap
+	0:Vehicle
+	1:BMS
+	2:Motor
+SignalEnumMap:0
+	0:关
+	1:开
+SignalType:0
+	0 1 1 0.0078 0 Km/h 1 speed 车速
+
+

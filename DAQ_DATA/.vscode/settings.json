@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "*.json": "json",
+        "xcp.h": "c",
+        "systemtimer.h": "c",
+        "daqconfig.h": "c",
+        "daqservice.h": "c",
+        "can.h": "c",
+        "datatypes.h": "c",
+        "ccp.h": "c",
+        "rtc.h": "c",
+        "rawcanmsglogfile.h": "c",
+        "4g_sim7600.h": "c",
+        "bo_index.h": "c",
+        "dbc_signalexplain.h": "c",
+        "wifi_esp8266.h": "c",
+        "signalconfig.h": "c"
+    }
+}

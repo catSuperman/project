@@ -1,0 +1,37 @@
+VERSION "1.0"
+
+NS_ :
+
+BS_:
+
+BO_ 897 MotorVoltInformation: 8 VCU
+ SG_ MCU_m_n_MotorAVolt : 6|16@0- (1,0) [0|0] "V" Vector__XXX 0 0
+
+BO_ 513 MotorTempInformation: 8 VCU
+ SG_ MCU_m_n_MotorATemp : 6|16@0+ (1,0) [0|0] "℃" Vector__XXX 1 0
+
+BO_ 403132660 BMSTempInformation: 8 VCU
+ SG_ BMS_m_u_BatTemp : 0|16@1+ (0.1,-40) [-40|150] "℃" Vector__XXX 2 0
+
+BO_ 403198196‬ BMSInformation: 8 VCU
+ SG_ BMS_m_u_BatVolt : 0|16@1+ (0.1,0) [0|500] "V" Vector__XXX 3 0
+ SG_ BMS_m_r_BatRSoc : 2|16@1+ (0.1,0) [0|100] "%" Vector__XXX 3 1
+ SG_ BMS_m_i_BatCurr : 4|16@1+ (0.1,-500) [-500|500] "A" Vector__XXX 3 2
+
+BO_ 393 VehicleInformation: 8 VCU
+ SG_ VCU_m_v_VehSpd : 0|16@0- (0.0078,0) [0|100] "km/h" Vector__XXX 4 0
+ SG_ MCU_m_n_MotorSpdAct : 2|16@0- (1,0) [0|100] "RPM" Vector__XXX 4 1
+ SG_ MCU_m_trq_MotorTrqAct : 4|8@0- (1,0) [0|100] "N.m" Vector__XXX 4 2
+
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
